@@ -1,0 +1,25 @@
+---
+title: "Sample"
+author: "John W. Hoggard"
+date: "9/11/2020"
+output: html_document
+bibliography: sample.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown Bibliographies and Citations
+
+Here's a sample reference.  [@ISLR]
+
+Some relevant links:
+
+  *  R For Data Science brief section on bibliographies: https://r4ds.had.co.nz/r-markdown.html (Section 27.6.2)
+  *  A somewhat more detailed discussion of bibliographies at [R Markdown for Scientists](https://rmd4sci.njtierney.com/):  https://rmd4sci.njtierney.com/citing-articles-bibliography-styles.html
+  (This suggests using a reference manager.)
+  *  Wikipedia article which covers the BibTeX entries which can be used: https://en.wikipedia.org/wiki/BibTeX
+  *  Section in [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/) on bibliographies:  https://bookdown.org/yihui/rmarkdown-cookbook/bibliography.html
+
+## References
